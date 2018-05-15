@@ -1,8 +1,12 @@
+__author__    = "Andrew Parli"
+__copyright__ = "Copyright 2018, Andrew Parli"
+
 def removeElement(nums, val):
     """
-    :type nums: List[int]
-    :type val: int
-    :rtype: int
+    Removes all occurences of `val` from `nums`.
+        :type nums: List[int]
+        :type val: int
+        :rtype: int
     """
     i = 0
     n = len(nums)
@@ -13,7 +17,6 @@ def removeElement(nums, val):
         else:
             i += 1
     return i
-
 
 if __name__ == '__main__':
 
